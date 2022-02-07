@@ -1,0 +1,62 @@
+/* 
+    > Pagestyle.css
+    > Used to layout the page and it's elements
+    > Some code taken from: https://github.com/TheNexusAvenger/Monstercat-Audio-Spectrum-Visualizer
+*/
+
+@font-face {
+    font-family: Gotham-Book;
+    src: url('fonts/Gotham-Book.otf');
+}
+
+@font-face {
+    font-family: Gotham-Medium;
+    src: url('fonts/Gotham-Medium.otf');
+}
+
+.backgroundRect {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -250px;
+    border-style:solid;
+    border-color: white;
+    height:20px;
+    width:500px;
+}
+
+.fillRect {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -250px;
+    border-style:solid;
+    border-color: white;
+    height:20px;
+    width:10px;
+    background-color: blueviolet;
+}
+
+.bottomText {
+    text-align: center;
+    position: relative;
+    top: 180px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bottomText #top {
+    position: relative;
+    top: 20px;
+}
+
+.bottomText #percentage {
+    position: relative;
+    top: 20px;
+}
+
+body {
+    background-color: black;
+}
